@@ -1,0 +1,15 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+.itm{
+    color: aliceblue;
+}
+.itm:hover{
+    transform: translateY(-6px);
+    color: whitesmoke;
+    
+}
+.get-start{
+    margin-top: 200px;
+}
