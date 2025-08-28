@@ -17,3 +17,24 @@
     height: 50px;
     background-color: black;
 }
+.sign-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    box-shadow: 1px 1px 15px;
+    background-color: white;
+}
+input{
+    width: 350px;
+    padding: 10px;
+}
+.ip-box{
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.p-size{
+    font-size: 14px;
+}
