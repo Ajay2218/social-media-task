@@ -14,19 +14,21 @@
     margin-top: 200px;
 }
 .ft-h{
-    height: 50px;
+    height: 60px;
     background-color: black;
+    
 }
 .sign-box{
     margin-left: auto;
     margin-right: auto;
     width: 450px;
     box-shadow: 1px 1px 15px;
-    background-color: white;
+   
 }
 input{
     width: 350px;
     padding: 10px;
+  
 }
 .ip-box{
     padding: 10px;
@@ -37,4 +39,142 @@ input{
 }
 .p-size{
     font-size: 14px;
+}
+.icon-box{
+    border: 1px solid;
+}
+.icon-box:hover{
+    border: gray solid 1px;
+    transform: translateY(-2px)
+}
+.search-box{
+  
+    width: 500px;
+    border: 0;
+    outline: none;
+    background-color: #efefef;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+.icons{
+   
+    margin-left: 250px;
+}
+.icon-bell{
+  
+    margin-left: 300px;
+}
+.profile > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.online{
+
+    position: relative;
+}
+.dot{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #41db51;
+    right:10px;
+    top: 0;
+}
+.left-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 60px;
+    width: 320px;
+}
+.right-box{
+     position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 60px;
+    width: 320px;
+}
+.story-box{
+    position: absolute;
+    margin-top: 60px;
+    width: 870px;
+    top: 0;
+    left: 320px;
+
+}
+.story-pic{
+    
+    width: 75px;
+    height: 75px;
+   
+}
+.story-pic > img{
+    width: 100%;
+    margin-bottom: 100px;
+    border: solid green;
+    border-radius: 50%;
+    
+}
+.img-card{
+    width: 100%;
+
+}
+.profile{
+  
+    width: 50px;
+   border-radius: 50%;
+    margin-left: 10px;
+}
+.post-box{
+    position: absolute;
+    margin-top: 260px;
+    width: 870px;
+    top: 0;
+    left: 320px;
+}
+.post-img{
+    width: 100%;
+}
+.post-img :nth-child(2){
+    width: 100%;
+    height: 75%;
+    margin-top: 100px;
+}
+.post-profile{
+    
+    width: 75px;
+    height: 75px;
+}
+.post-profile > img{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    border: solid green;
+    border-radius: 50%;
+}
+.bio{
+    padding-bottom: 25px;
+}
+
+.pro-img{
+    width: 75px;
+    position: relative;
+    
+}
+.pro-img >img{
+    width: 100%;
+    border-radius: 50%;
+}
+.cam{
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: white;
 }
